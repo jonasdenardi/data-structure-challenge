@@ -26,13 +26,13 @@ static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int 
         node = node.next;
         count++;
     }
+    // count = 1
+    // node = 16
+    // next = 13
+
     // count = 2
     // node = 13
     // next = 7
-
-    // count = 2
-    // node = 7
-    // next = null
 
     var next = node.next;
     node.next = new SinglyLinkedListNode(data) { next = next };
